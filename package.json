@@ -1,0 +1,35 @@
+{
+  "name": "simple-resume-parser",
+  "version": "1.0.0",
+  "description": "Hiredscore Home Assignment",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js",
+    "lint": "eslint ./",
+    "prepare": "husky install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/idanb11/simple-resume-parser.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/idanb11/simple-resume-parser/issues"
+  },
+  "homepage": "https://github.com/idanb11/simple-resume-parser#readme",
+  "devDependencies": {
+    "eslint": "^8.46.0",
+    "eslint-config-google": "^0.14.0",
+    "husky": "^8.0.3",
+    "lint-staged": "^13.2.3",
+    "prettier": "3.0.1"
+  },
+  "lint-staged": {
+    "**/*": "prettier --write --ignore-unknown"
+  },
+  "dependencies": {
+    "pdf-parse": "^1.1.1"
+  }
+}
