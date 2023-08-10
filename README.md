@@ -39,4 +39,4 @@ In order to update the script to your specific needs, please update the dictiona
 
 ## License
 
-[MIT](LICENSE) © Richard Littauer
+[MIT](LICENSE) © Idan Bercovici

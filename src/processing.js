@@ -7,7 +7,6 @@ const saveResume = async (path, json, filename) => {
   try {
     const dirStat = await fs.stat(path);
     if (dirStat.isDirectory()) {
-      console.log(json);
       await fs.writeFile(
         `${path}/${filename}.json`,
         JSON.stringify(json, null, 2),

@@ -4,6 +4,7 @@
   "description": "Hiredscore Home Assignment",
   "main": "index.js",
   "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js",
     "lint": "eslint ./",
     "prepare": "husky install"
