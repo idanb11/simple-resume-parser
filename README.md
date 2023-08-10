@@ -24,14 +24,16 @@ $ npm start
 
 After the script finished it execution, the JSON output for each file will be available in the _output_ folder
 
-### Dictionary
+## Dictionary
 
 In order to update the script to your specific needs, please update the dictionary file: `./src/dictionary.js`.
 
-## Related Efforts
+## TODOS
 
-- [Art of Readme](https://github.com/noffle/art-of-readme) - 💌 Learn the art of writing quality READMEs.
-- [open-source-template](https://github.com/davidbgk/open-source-template/) - A README template to encourage open-source contributions.
+- Add a more robust and centralized error handling and reporting.
+- Add the option in the dictionary to add multiple regex patterns for each section.
+- Add support for getting resume PDF from a link and saving it the S3 bucket.
+- Extend the parser to support different resume layouts for processing and text extraction.
 
 ## Maintainers
 
